@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* class container style */
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    padding-top: 30px;
+}
+
+/* end of class container style */
+
+/* loader */
+
+#loader_div{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+#close_loader{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    background: white;
+    cursor: pointer;
+}
+
+#close_loader:hover{
+    background: red;
+    color: white;
+}
+
+.loader{
+    width: 50%;
+    height: 2px;
+    background: lime;
+    position: relative;
+    top: 50%;
+    animation-name: loader;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+    
+    
+}
+
+@keyframes loader{
+    0%{
+        left: 0%;
+        
+    }
+    10%{
+        left: 10%;
+        background: rgb(0, 123, 255);
+    }
+
+    20%{
+        left: 20%;
+    }
+
+    30%{
+        left: 30%;
+    }
+
+    40%{
+        left: 40%;
+    }
+
+    50%{
+        left: 50%;
+        background: rgb(255, 0, 25);
+    }
+
+    60%{
+        left: 40%;
+    }
+    70%{
+        left: 30%;
+    }
+    80%{
+        left: 20%;
+    }
+    90%{
+        left: 10%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+#loader_p{
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+
+/* end loader */
+
+
+/* showcase heading */
+
+#showcase_heading{
+    width: 90%;
+    margin: 0 auto;
+    color: lime;
+    box-shadow: 0 0 5px lime;
+    text-align: center;
+    padding: 8px 0;
+}
+
+/* showcase heading */
+
+
+/* div showcase */
+
+#showcase_div{
+    width: 80%;
+    box-shadow: 0 0 5px lime;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 25px;
+    
+    
+}
+
+/* end div showcase */
+
+
+/* showcase heading,form and its inputs*/
+
+#form_heading{
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+
+#showcase_form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 5px;
+    border: 1px solid lime;
+}
+
+.form_input{
+    width: 97%;
+    margin: 9px 0;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#submit_button{
+    background: rgb(3, 190, 50);
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+
+#csv_button{
+    background: rgb(3, 156, 190);
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.form_p{
+    color: red;
+}
+
+/* showcase form and its inputs */
+
+
+
+
+#csv_input_div{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
+
+#close_csv_div{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    background: white;
+    cursor: pointer;
+}
+
+#csv_form{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid lime;
+    color: white;
+    margin-top: 30px;
+}
